@@ -1,3 +1,4 @@
+
 # Welcome to Nand2Tetris macOS tutorial!
 
 This tutorial will show you the instructions to set up the environment for Nand2Tetris and get Nand2Tetris installed properly.
@@ -53,5 +54,18 @@ $HOME/nand2tetris/tools/TextComparer.sh
 $HOME/nand2tetris/tools/VMEmulator.sh
 ```
 
+### Add your path to zshrc or bashrc
+Check your shell by typing:
+```
+ehco $SHELL
+```
+If you are using zsh, use the followin command to add your path to zshrc:
+```
+echo 'export PATH="$HOME/nand2tetris/tools:${PATH}"' >> $HOME/.zshrc
+```
+If you are using bash, use the followin command to add your path to bashrc:
+echo 'export PATH="$HOME/nand2tetris/tools:${PATH}"' >> $HOME/.bashrc
+
+After add your path to environment variable PATH, you can simply type `CPUEmulator.sh` in the terminal to launch CPU Emulator program.
 # Done
 If you have any questions, please [open an issues](https://github.com/wxw-matt/nand2tetris-macos/issues) or [email me](mailto:matt.wxw.adelaide@gmail.com).
