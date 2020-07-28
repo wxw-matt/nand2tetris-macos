@@ -27,7 +27,7 @@ brew cask install java
 Then run the `java -version` again and see if java has been installed properly.
 # Download and Set up Nand2Tetris
 ## Download
-You can download from [nand2tetris-macos](https://raw.githubusercontent.com/wxw-matt/nand2tetris-macos/master/nand2tetris.zip) or you can download from offical website: [nand2tetris](https://www.nand2tetris.org). After download the file, move it to your `Downloads` folder.
+You can download from [csadelaide-nand2tetris.zip](https://raw.githubusercontent.com/wxw-matt/nand2tetris-macos/master/csadelaide-nand2tetris.zip) or you can download from offical website: [nand2tetris](https://www.nand2tetris.org). After download the file, move it to your `Downloads` folder.
 ## Set up 
 Type the following command: 
 ```
