@@ -1,6 +1,8 @@
-if ! type "java" > /dev/null; then
+if ! command -v java &> /dev/null
+then
   echo "No java"
-  if ! type "brew" > /dev/null; then
+  if ! command -v brew &> /dev/null
+  then
     echo "No brew"
     echo "Installing brew"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
