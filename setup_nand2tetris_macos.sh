@@ -1,4 +1,5 @@
-if ! command -v java &> /dev/null
+java_output=`java -version 2> /tmp/java-test && cat /tmp/java-test`
+if [[ $java_output != *"JDK"* ]];
 then
   echo "No java"
   if ! command -v brew &> /dev/null
