@@ -61,10 +61,12 @@ ehco $SHELL
 ```
 If you are using zsh, use the followin command to add your path to zshrc:
 ```
-echo 'export PATH="$HOME/nand2tetris/tools:${PATH}"' >> $HOME/.zshrc
+echo 'export PATH="$HOME/nand2tetris/tools:$PATH"' >> $HOME/.zshrc
 ```
 If you are using bash, use the followin command to add your path to bashrc:
-echo 'export PATH="$HOME/nand2tetris/tools:${PATH}"' >> $HOME/.bashrc
+```
+echo 'export PATH="$HOME/nand2tetris/tools:$PATH"' >> $HOME/.bashrc
+```
 
 After add your path to environment variable PATH, you can simply type `CPUEmulator.sh` in the terminal to launch CPU Emulator program.
 # Done
