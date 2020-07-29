@@ -3,6 +3,14 @@
 
 This tutorial will show you the instructions to set up the environment for Nand2Tetris and get Nand2Tetris installed properly.
 
+# All in one script:
+
+```
+/bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/wxw-matt/nand2tetris-macos/master/setup_nand2tetris_macos.sh)"
+
+```
+**If you prefer to install Nand2Tetris step by step, just follow the rest of this tutorial.** 
+
 # Preparation 
 
 ## Check your environment
