@@ -32,26 +32,26 @@ You can download from [csadelaide-nand2tetris.zip](https://raw.githubusercontent
 Type the following command: 
 ```
 cd $HOME
-unzip ~/Downloads/nand2tetris.zip
-cd nand2tetris
+unzip ~/Downloads/csadelaide-nand2tetris.zip
+cd csadelaide-nand2tetris
 chmod +x tools/*.sh
 ```
 ### Test Nand 2 Tetris
 Run Hardware Simulator:
 ```
-$HOME/nand2tetris/tools/HardwareSimulator.sh
+$HOME/csadelaide-nand2tetris/tools/HardwareSimulator.sh
 ```
 
 Run Jack Compiler:
 ```
-$HOME/nand2tetris/tools/JackCompiler.sh $HOME/nand2tetris/projects/09/Square
+$HOME/csadelaide-nand2tetris/tools/JackCompiler.sh $HOME/csadelaide-nand2tetris/projects/09/Square
 ```
 Other commands you can use:
 ```
-$HOME/nand2tetris/tools/Assembler.sh
-$HOME/nand2tetris/tools/CPUEmulator.sh
-$HOME/nand2tetris/tools/TextComparer.sh
-$HOME/nand2tetris/tools/VMEmulator.sh
+$HOME/csadelaide-nand2tetris/tools/Assembler.sh
+$HOME/csadelaide-nand2tetris/tools/CPUEmulator.sh
+$HOME/csadelaide-nand2tetris/tools/TextComparer.sh
+$HOME/csadelaide-nand2tetris/tools/VMEmulator.sh
 ```
 
 ### Add your path to zshrc or bashrc
@@ -61,7 +61,7 @@ ehco $SHELL
 ```
 If you are using zsh, use the followin command to add your path to zshrc:
 ```
-echo 'export PATH="$HOME/nand2tetris/tools:$PATH"' >> $HOME/.zshrc
+echo 'export PATH="$HOME/csadelaide-nand2tetris/tools:$PATH"' >> $HOME/.zshrc
 ```
 Reload zshrc
 ```
@@ -69,7 +69,7 @@ source $HOME/.zshrc
 ```
 If you are using bash, use the followin command to add your path to bashrc:
 ```
-echo 'export PATH="$HOME/nand2tetris/tools:$PATH"' >> $HOME/.bashrc
+echo 'export PATH="$HOME/csadelaide-nand2tetris/tools:$PATH"' >> $HOME/.bashrc
 ```
 Reload bashrc
 ```
