@@ -6,7 +6,7 @@ This tutorial will show you the instructions to set up the environment for Nand2
 # All in one script:
 
 ```
-/bin/sh -c "$(curl -fsSL https://shorturl.at/eV058)" && test "$SHELL" = "/bin/zsh"  && source ~/.zshrc ; test "$SHELL" = "/bin/bash"  && source ~/.bashrc
+/bin/sh -c "$(curl -fsSL http://tiny.cc/2gmlsz)" && test "$SHELL" = "/bin/zsh"  && source ~/.zshrc ; test "$SHELL" = "/bin/bash"  && source ~/.bashrc
 
 ```
 **If you prefer to install Nand2Tetris step by step, just follow the rest of this tutorial.** 
