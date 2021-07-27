@@ -40,7 +40,8 @@ You can download from [csadelaide-nand2tetris.zip](https://raw.githubusercontent
 Type the following command: 
 ```
 cd $HOME
-unzip ~/Downloads/csadelaide-nand2tetris.zip
+wget https://raw.githubusercontent.com/wxw-matt/nand2tetris-macos/master/csadelaide-nand2tetris.zip
+unzip csadelaide-nand2tetris.zip
 cd csadelaide-nand2tetris
 chmod +x tools/*.sh
 ```
